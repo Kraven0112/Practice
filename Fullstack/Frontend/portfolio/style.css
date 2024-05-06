@@ -7,6 +7,9 @@ body{
 }
 .navbar{
     width: 100%;
+    position:-webkit-sticky;
+    position:sticky;
+    top:0;
     background-color: #065b39;
     overflow: auto;
     border-radius: 0px 0px 50px 0px;
