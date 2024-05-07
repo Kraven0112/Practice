@@ -4,6 +4,7 @@
 body{
     background-color:white;
     font-family:sans-serif;
+    flex-wrap: wrap;
 }
 .navbar{
     margin-top: 0;
@@ -103,4 +104,5 @@ body{
 .project .list-1 a{
    text-decoration: none;
    margin: 50px;
+   color: blue;
 }
