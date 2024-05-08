@@ -24,7 +24,7 @@ body{
     font-size: 16px;
 }
 .navbar a:hover{
-    background-color: #816767;
+    background-color: #d3b7b7;
 }
 .navbar .nav-left{
     float: left;
