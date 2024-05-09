@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+      <div class="divider">
+        <div class="input">
+            <input type="number" id="num1" value="">
+            <input type="number" id="num2" value="">
+            <button onclick="operation()">+</button>
+            <button onclick="operation()">*</button>
+            <button onclick="operation()">/</button>
+            <button onclick="operation()">-</button>
+        </div>
+        <div class="result">
+            <h1 id="out"></h1>
+        </div>
+      </div>
+    </div>
+
+    <script>
+        function operation(){
+            let num1=document.getElementById('num1').value
+            let num2=document.getElementById('num2').value
+            
+            let operation=Number(num1)+Number(num2)
+            document.getElementById('out').innerHTML=operation
+            console.log(operation)
+        }
+        function operation(){
+            let num1=document.getElementById('num1').value
+            let num2=document.getElementById('num2').value
+            
+            let operation=Number(num1)*Number(num2)
+            document.getElementById('out').innerHTML=operation
+            console.log(operation)
+        }
+        function operation(){
+            let num1=document.getElementById('num1').value
+            let num2=document.getElementById('num2').value
+            
+            let operation=Number(num1)/Number(num2)
+            document.getElementById('out').innerHTML=operation
+            console.log(operation)
+        }
+        function operation(){
+            let num1=document.getElementById('num1').value
+            let num2=document.getElementById('num2').value
+            
+            let operation=Number(num1)-Number(num2)
+            document.getElementById('out').innerHTML=operation
+            console.log(operation)
+        }
+    </script>
+</body>
+</html>
