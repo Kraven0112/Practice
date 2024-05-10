@@ -10,36 +10,36 @@
     <div class="container">
       <form action="#">
         <div class="display">
-            <input type="text" name=" display">
+            <input type="text" name="output">
         </div>
         <div class="first">
-            <input type="button" name="" value="AC">
-            <input type="button" name="" value="DEL">
-            <input type="button" name="" value=".">
-            <input type="button" name="" value="/">
+            <input type="button"  value="AC" onclick="output.value = ''" class="operator">
+            <input type="button"  value="DEL" onclick="output.value = output.value.toString() .slice(0,-1)" class="operator">
+            <input type="button"  value="." onclick="output.value += '.'"  class="operator">
+            <input type="button"  value="/" onclick="output.value += '/'"  class="operator">
         </div>
         <div class="second">
-            <input type="button" name="" value="7" onclick="display.value='7'">
-            <input type="button" name="" value="8">
-            <input type="button" name="" value="9">
-            <input type="button" name="" value="*">
+            <input type="button" value="8" onclick="output.value += '8'"  class="number">
+            <input type="button" value="7" onclick="output.value +='7'"  class="number">
+            <input type="button" value="9" onclick="output.value += '9'"  class="number">
+            <input type="button" value="*" onclick="output.value += '*'" class="operator">
         </div>
         <div class="third">
-            <input type="button" name="" value="4">
-            <input type="button" name="" value="5">
-            <input type="button" name="" value="6">
-            <input type="button" name="" value="+">
+            <input type="button" value="5" onclick="output.value += '5'" class="number">
+            <input type="button" value="4" onclick="output.value += '4'"  class="number">
+            <input type="button" value="6" onclick="output.value += '6'"  class="number">
+            <input type="button" value="+" onclick="output.value += '+'" class="operator">
         </div>
         <div class="fourth">
-            <input type="button" name="" value="1">
-            <input type="button" name="" value="2">
-            <input type="button" name="" value="3">
-            <input type="button" name="" value="-">
+            <input type="button" value="2" onclick="output.value += '2'"  class="number">
+            <input type="button" value="1" onclick="output.value += '1'"  class="number">
+            <input type="button" value="3" onclick="output.value += '3'"  class="number">
+            <input type="button" value="-" onclick="output.value += '-'" class="operator">
         </div>
         <div class="fifth">
-            <input type="button" name="" value="0">
-            <input type="button" name="" value="00">
-            <input type="button" name="" class="equal"  value="=">
+            <input type="button"  value="0" onclick="output.value += '0'"  class="number">
+            <input type="button"  value="00"  onclick="output.value += '00'"  class="number">
+            <input type="button"  class="equal operator"  value="=" onclick="output.value = output.value =eval(output.value)">
         </div>
       </form>
     </div>
