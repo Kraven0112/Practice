@@ -1,0 +1,83 @@
+body{
+    box-sizing: border-box;
+    background-color:rgb(182, 196, 182);
+}
+
+.container{
+    width: 100%;
+    height: 80vh;
+}
+.container form{
+    padding: 20px;
+    width: 260px;
+    border-radius: 25px;
+    background-color: #100e0e;
+    margin-block: 80px 80px;
+    margin-inline: 400px 400px;
+}
+.container form .display{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.container form .display input{
+width: 100%;
+height: 50px;
+border-radius: 10px;
+background-color: #170808;
+color: white;
+text-align: end;
+font-size: 30px;
+}
+.container form .first{
+    width: 100%;
+    justify-content: space-evenly;
+}
+.container form .first input{
+    width:60px;
+    height:50px ;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.container form .second{
+    width: 100%;
+    justify-content: space-between;
+}
+.container form .second input{
+    width:60px;
+    height:50px ;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.container form .third{
+    width: 100%;
+    justify-content: space-between;
+}
+.container form .third input{
+    width:60px;
+    height:50px ;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.container form .fourth{
+    width: 100%;
+    justify-content: space-between;
+}
+.container form .fourth input{
+    width:60px;
+    height:50px ;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.container form .fifth{
+    width: 100%;
+    justify-content: space-between;
+}
+.container form .fifth input{
+    width:60px;
+    height:50px ;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.container form .fifth .equal{
+    width:123px
+}
